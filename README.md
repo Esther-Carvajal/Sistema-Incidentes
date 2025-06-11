@@ -1,4 +1,5 @@
 **SISTEMA DE GESTIÓN DE INCIDENTES INSTITUCIONALES**
+
 Descripción General
 Este sistema permite registrar, gestionar y dar seguimiento a incidentes ocurridos dentro del entorno universitario, como conflictos, reportes disciplinarios o problemas administrativos. Está diseñado para ser utilizado por tres tipos de usuarios: Estudiantes, Docentes y Administradores, cada uno con diferentes niveles de acceso y funcionalidades.
 
