@@ -96,10 +96,6 @@ public class IncidenteServiceImpl implements IIncidenteService {
         Usuario usuario = usuarioRepository.findById(usuarioId)
                 .orElseThrow(() -> new RuntimeException("Usuario no encontrado"));
 
-        // Aquí deberías crear y guardar un nuevo seguimiento
-        // Esto es un ejemplo simplificado
-        // En una implementación real, usarías el servicio de seguimientos
-
         Incidente incidenteActualizado = incidenteRepository.save(incidente);
         return convertToDTO(incidenteActualizado);
     }
